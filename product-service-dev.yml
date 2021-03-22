@@ -23,4 +23,4 @@ eureka:
     lease-expiration-duration-in-seconds: 90
     #服务续约(renew)的间隔,默认为30秒
     lease-renewal-interval-in-seconds: 30
-world: world java
+world: world
