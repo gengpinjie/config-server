@@ -2,7 +2,7 @@ spring:
   application:
     name: product-service
 server:
-  port: ${port:9001}
+  port: ${port:9002}
 eureka:
   #Eureka客户端配置
   client:
