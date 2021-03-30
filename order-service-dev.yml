@@ -15,9 +15,9 @@ spring:
       probability: 1.0
   rabbitmq:
     host: 117.78.17.127
-    username: admin
-    password: Qing123456!
-    port: 5672
+    username: guest
+    password: guest
+    port: 5673
 server:
   port: ${port:10001} #端口号
 eureka:
