@@ -3,11 +3,6 @@ server:
 spring:
   application:
     name: api-gateway #应用程序名称
-  rabbitmq:
-    host: 117.78.17.127
-    username: guest
-    password: guest
-    port: 5673
 eureka:
   client:
     service-url:
