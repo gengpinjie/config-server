@@ -1,14 +1,6 @@
 spring:
   application:
     name: order-service #应用程序名称
-  redis:
-    database: 0
-    host: 117.78.17.127
-    port: 16379
-    timeout: 5000
-  #ZipKin服务所在地址
-  zipkin:
-    base-url: http://117.78.17.127:9411/
   #配置采样百分比,开发环境可以设置成1,表示全部;生产环境就用默认的
   sleuth:
     sampler:
