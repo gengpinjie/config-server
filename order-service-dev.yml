@@ -3,8 +3,8 @@ spring:
     name: order-service #应用程序名称
   redis:
     database: 0
-    host: 127.0.0.1
-    port: 6379
+    host: 117.78.17.127
+    port: 16379
     timeout: 5000
   #ZipKin服务所在地址
   zipkin:
